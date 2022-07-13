@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Just Dessert </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="maincontainer">
+        <div id="navbar">
+            <h1 class="navTitle"> Just<span class="orangetitle">Dessert </span></h1>
+            <div class="buttons"> 
+                <button id="joinBtn" onclick="remov()"> Join </button>
+                <button id="loginBtn"> Login </button>
+            </div>
+        </div>
+
+        <div id="headerframe">
+            <div class="searchbox">
+                <input type="search" id="search" placeholder="SEARCH..">
+                <button class="gobutton" onclick="alerta()">GO</button>
+            </div>
+            <div class="icons">
+                <img src="imgs/cake.png" alt="cake" class="icon"> 
+                <img src="imgs/cookie.png" alt="cookie" class="icon"> 
+                <img src="imgs/ice-cream.png" alt="icecream" class="icon"> 
+                <img src="imgs/pie.png" alt="pie" class="icon"> 
+            </div>    
+        </div>
+        </div>
+        <div class="maincontainer2">
+            <div id="mainframe">
+                <h1 class="frameTitle"> Recipe of the day</h1>
+                <img src="imgs/orange-tart.jpg" alt="orangetart">
+                <div class="titlelikes">
+                    <p> Orange Tea Jelly Tart</p>
+                    <div class="likescontainer">
+                        <img src="imgs/heart.png" alt="heart" onclick="addlike1()" >
+                        <button class="likebtn" onclick="addlike1()">68</button>
+
+                    </div>
+                </div>
+                <div class="autor">
+                    <p> By: <a href="#"> yuripiano</a></p>    
+                </div>
+                <div class="fullrecipe">
+                    <p><a href="#">See Full Recipe</a> </p>
+
+                </div>
+            </div>
+                
+            <div id="sideframe">
+                <h3> Recomended for you: </h3>
+                <div class="line"></div>
+                <img src="imgs/macarons.jpg" alt="macaroons" class="sidepic1">
+                <div class="titlelikes2">
+                    <p> Macaroons</p>
+                    <div class="likescontainer2">
+                        <img src="imgs/heart.png" alt="heart" onclick="addlike2()">
+                        <button class="likebtn2" onclick="addlike2()">212</button>
+
+                    </div>
+                </div>
+                <div class="autor2">
+                    <p> By: <a href="#"> EmilieW</a></p>    
+                </div>
+                <img src="imgs/creme-brulee.jpg" alt="cremebrulee" class="sidepic1">
+                <div class="titlelikes2">
+                    <p> Crème Brûlée</p>
+                    <div class="likescontainer2">
+                        <img src="imgs/heart.png" alt="heart" onclick="addlike3()">
+                        <button class="likebtn3" onclick="addlike3()">32</button>
+
+                    </div>
+                </div>
+                <div class="autor2">
+                    <p> By: <a href="#"> MarisaG</a></p>    
+                </div>
+    
+            </div>
+        </div>
+        
+    <script src="script.js"></script>
+    </body>
+
+
+
+
+</html>    
